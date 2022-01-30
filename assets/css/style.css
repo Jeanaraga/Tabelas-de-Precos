@@ -18,7 +18,7 @@ body {
 
 header {
     background-color: var(--blue);
-    width: 1440px;
+    width: 100%;
     height: 450px;
 }
 
@@ -52,8 +52,9 @@ header .textos p {
 main {
     display: flex;
     flex-direction: row;
-    margin-right: 167px;
-    margin-left: 168px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
 }
 
 main .tabela-1, .tabela-2, .tabela-3 {
@@ -63,8 +64,17 @@ main .tabela-1, .tabela-2, .tabela-3 {
     box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
     border-radius: 8px;
     position: relative;
-    top: -135px;
+    top: -105px;
     margin-right: 20px; 
+    transition: 1.5s;
+}
+
+main .tabela-1 {
+    margin-left: 20px;
+}
+
+main .tabela-1:hover, .tabela-2:hover, .tabela-3:hover {
+    top: -165px;
 }
 
 /* PLANOS */
@@ -76,9 +86,14 @@ main .tabela-1 .planos {
 }
 
 main .tabela-2 .planos {
-    width: 51px;
-    height: 25px;
-    margin: 30px 274px 20px 30px;
+    width: 355px;
+    height: 76px;
+    background: #FFCC29;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main .tabela-3 .planos {
@@ -98,6 +113,7 @@ main .tabela-1 h4 {
     font-size: 18px;
     line-height: 25px;
     color: #1E2338;
+
 }
 
 main .tabela-2 h4 {
@@ -106,7 +122,25 @@ main .tabela-2 h4 {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    color: #1E2338;
+    color: var(--blue);
+    padding: 25px 148px 24px 30px;
+}
+
+main .tabela-2 h5 {
+    width: 46px;
+    height: 16px;
+    text-align: center;
+    background: #1D539E;
+    border-radius: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 24px;
+    margin-right: 20px;
 }
 
 main .tabela-3 h4 {
@@ -248,4 +282,10 @@ main .botao-assinar button {
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+main .botao-assinar button:hover {
+    background-color: var(--blue);
+    color: var(--page-background);
 }
