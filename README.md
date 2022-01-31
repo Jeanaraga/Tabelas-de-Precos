@@ -32,8 +32,8 @@ Desafio da [Rocktseeat](https://app.rocketseat.com.br/) de fazer uma Tabela de P
 - ✅ Começar a responsividade
 - ✅ Fazer a responsividade para desktop
 - ✅ Fazer a responsividade para notebooks
-- ❌ Fazer a responsividade para Tablets
-- ❌ Fazer a responsividade para celulares
+- ✅ Fazer a responsividade para Tablets
+- ✅ Fazer a responsividade para celulares
 
 ---
 
