@@ -1,11 +1,12 @@
-@media screen and (max-height: 780px) {
+
+@media (max-height: 2000px) {
 
     header {
-        height: 300px;
+        height: 450px;
     }
 
     header .textos h1 {
-        margin-top: 5%;
+        margin-top: 20%;
     }
 
     main {
@@ -14,13 +15,22 @@
     }
 
     main .tabela-1, .tabela-2, .tabela-3 {
-        top: -55px;
+        top: -65px;
     }
 
     main .tabela-1:hover, .tabela-2:hover, .tabela-3:hover {
         top: -85px;
     }
 
+}
+
+@media (max-height: 800px) {
+    header {
+        height: 300px;
+    }
+    header .textos h1 {
+        margin-top: 5%;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -49,7 +59,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
 
     main {
         display: flex;
@@ -224,7 +234,7 @@
     }    
 } 
 
-@media (max-width: 321px) {
+@media (max-width: 380px) {
     main .tabela-1, .tabela-2, .tabela-3 {
         width: 280px;
         height: 470px;
